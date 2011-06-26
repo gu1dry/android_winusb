@@ -54,6 +54,14 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
 ;
+; Samsung Aries
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E22
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+;
+; Samsung C1
+%SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_685E
+%CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_685E&MI_01
+;
 ; Sony Ericsson Anzu, Zeus
 %SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_0DDE
 %CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_0DDE&MI_01
