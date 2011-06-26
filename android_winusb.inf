@@ -30,38 +30,68 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C01
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
+;
+; HTC Espresso, Glacier, Hero, HeroC, Incredible, Speedy, Vision
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0FF9
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0FF9&MI_01
+;
 ; HTC Magic
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C01
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C03&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
 ;
-;Moto Sholes
-%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
-%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
+; HTC Mecha
+%SingleAdbInterface%		= USB_Install, USB\VID_0BB4&PID_0CA4
+%CompositeAdbInterface%		= USB_Install, USB\VID_0BB4&PID_0CA4&MI_01
 ;
-;Google NexusOne
+; HTC Passion, Samsung Crespo
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_0D02&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E11
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E12&MI_01
-%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+;
+; Motorola Sholes
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
+;
+; Sony Ericsson Anzu, Zeus
+%SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_0DDE
+%CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_0DDE&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_0DDE
 
 [Google.NTamd64]
 ; HTC Dream
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C01
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
+;
+; HTC Espresso, Glacier, Hero, HeroC, Incredible, Speedy, Vision
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0FF9
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0FF9&MI_01
+;
 ; HTC Magic
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C01
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C03&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
 ;
-;Moto Sholes
-%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
-%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
+; HTC Mecha
+%SingleAdbInterface%		= USB_Install, USB\VID_0BB4&PID_0CA4
+%CompositeAdbInterface%		= USB_Install, USB\VID_0BB4&PID_0CA4&MI_01
 ;
-;Google NexusOne
+; HTC Passion, Samsung Crespo
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_0D02&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E11
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E12&MI_01
-%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+;
+; Motorola Sholes
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
+;
+; Sony Ericsson Anzu, Zeus
+%SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_0DDE
+%CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_0DDE&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_0DDE
 
 [USB_Install]
 Include = winusb.inf
@@ -102,7 +132,7 @@ WinUSBCoInstaller2.dll
 WdfCoInstaller01009.dll
 
 [DestinationDirs]
-CoInstallers_CopyFiles=11
+CoInstallers_CopyFiles = 11
 
 [SourceDisksNames]
 1 = %DISK_NAME%,,,\i386
