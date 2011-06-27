@@ -41,8 +41,8 @@ HKR,,Icon,,-1
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
 ;
 ; HTC Mecha
-%SingleAdbInterface%		= USB_Install, USB\VID_0BB4&PID_0CA4
-%CompositeAdbInterface%		= USB_Install, USB\VID_0BB4&PID_0CA4&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA4
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CA4&MI_01
 ;
 ; HTC Passion, Samsung Crespo
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
@@ -83,8 +83,8 @@ HKR,,Icon,,-1
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
 ;
 ; HTC Mecha
-%SingleAdbInterface%		= USB_Install, USB\VID_0BB4&PID_0CA4
-%CompositeAdbInterface%		= USB_Install, USB\VID_0BB4&PID_0CA4&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA4
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CA4&MI_01
 ;
 ; HTC Passion, Samsung Crespo
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_0D02
