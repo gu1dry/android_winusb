@@ -26,6 +26,10 @@ HKR,,Icon,,-1
 %ProviderName% = Google, NTx86, NTamd64
 
 [Google.NTx86]
+; HTC Ace
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA2
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CA2&MI_01
+;
 ; HTC Dream
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C01
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
