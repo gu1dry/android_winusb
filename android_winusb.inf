@@ -39,6 +39,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0FF9
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0FF9&MI_01
 ;
+; HTC Liberty
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C92
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C92&MI_01
+;
 ; HTC Magic
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C01
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C03&MI_01
@@ -53,6 +57,10 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_0D02&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E11
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E12&MI_01
+;
+; HTC Vivo
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CAC
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CAC&MI_01
 ;
 ; Motorola Sholes
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
