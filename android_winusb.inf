@@ -30,6 +30,14 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_2080&PID_0002
 %CompositeAdbInterface%     = USB_Install, USB\VID_2080&PID_0002&MI_01
 ;
+; Commtiva Z71, Geeksphone One
+%SingleAdbInterface%        = USB_Install, USB\VID_0489&PID_C001
+%CompositeAdbInterface%     = USB_Install, USB\VID_0489&PID_C001&MI_01
+;
+; Geeksphone Zero
+%SingleAdbInterface%        = USB_Install, USB\VID_05C6&PID_9025
+%CompositeAdbInterface%     = USB_Install, USB\VID_05C6&PID_9025&MI_01
+;
 ; HTC Ace
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA2
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CA2&MI_01
@@ -78,6 +86,14 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CAC
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CAC&MI_01
 ;
+; LG Star
+%SingleAdbInterface%        = USB_Install, USB\VID_1004&PID_618E
+%CompositeAdbInterface%     = USB_Install, USB\VID_1004&PID_618E&MI_01
+;
+; Malata SMB_a1002, SMB_a1004, SMB_a1011, SMB_b9701
+%SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_7100
+%CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_7100&MI_01
+;
 ; Motorola Sholes
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
@@ -94,11 +110,23 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_0DDE
 %CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_0DDE&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_0DDE
+;
+; ZTE Venus
+%SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_19D2
+%CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_19D2&MI_01
 
 [Google.NTamd64]
 ; B&N Encore
 %SingleAdbInterface%        = USB_Install, USB\VID_2080&PID_0002
 %CompositeAdbInterface%     = USB_Install, USB\VID_2080&PID_0002&MI_01
+;
+; Commtiva Z71, Geeksphone One
+%SingleAdbInterface%        = USB_Install, USB\VID_0489&PID_C001
+%CompositeAdbInterface%     = USB_Install, USB\VID_0489&PID_C001&MI_01
+;
+; Geeksphone Zero
+%SingleAdbInterface%        = USB_Install, USB\VID_05C6&PID_9025
+%CompositeAdbInterface%     = USB_Install, USB\VID_05C6&PID_9025&MI_01
 ;
 ; HTC Ace
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA2
@@ -113,7 +141,7 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
 ;
-; HTC Espresso, Glacier, Hero, HeroC, Incredible, Speedy, Vision
+; HTC Espresso, Glacier, Hero, HeroC, Incredible, Vision
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0FF9
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0FF9&MI_01
 ;
@@ -136,6 +164,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E11
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E12&MI_01
 ;
+; HTC Speedy
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA5
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CA5&MI_01
+;
 ; HTC Supersonic
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C8D
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C8D&MI_01
@@ -143,6 +175,14 @@ HKR,,Icon,,-1
 ; HTC Vivo
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CAC
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CAC&MI_01
+;
+; LG Star
+%SingleAdbInterface%        = USB_Install, USB\VID_1004&PID_618E
+%CompositeAdbInterface%     = USB_Install, USB\VID_1004&PID_618E&MI_01
+;
+; Malata SMB_a1002, SMB_a1004, SMB_a1011, SMB_b9701
+%SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_7100
+%CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_7100&MI_01
 ;
 ; Motorola Sholes
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
@@ -160,6 +200,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_0DDE
 %CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_0DDE&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_0DDE
+;
+; ZTE Venus
+%SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_19D2
+%CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_19D2&MI_01
 
 [USB_Install]
 Include = winusb.inf
