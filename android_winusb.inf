@@ -26,6 +26,10 @@ HKR,,Icon,,-1
 %ProviderName% = Google, NTx86, NTamd64
 
 [Google.NTx86]
+; B&N Encore
+%SingleAdbInterface%        = USB_Install, USB\VID_2080&PID_0002
+%CompositeAdbInterface%     = USB_Install, USB\VID_2080&PID_0002&MI_01
+;
 ; HTC Ace
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA2
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CA2&MI_01
@@ -39,7 +43,7 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
 ;
-; HTC Espresso, Glacier, Hero, HeroC, Incredible, Speedy, Vision
+; HTC Espresso, Glacier, Hero, HeroC, Incredible, Vision
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0FF9
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0FF9&MI_01
 ;
@@ -61,6 +65,10 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_0D02&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E11
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E12&MI_01
+;
+; HTC Speedy
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA5
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CA5&MI_01
 ;
 ; HTC Supersonic
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C8D
@@ -88,6 +96,10 @@ HKR,,Icon,,-1
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_0DDE
 
 [Google.NTamd64]
+; B&N Encore
+%SingleAdbInterface%        = USB_Install, USB\VID_2080&PID_0002
+%CompositeAdbInterface%     = USB_Install, USB\VID_2080&PID_0002&MI_01
+;
 ; HTC Ace
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA2
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CA2&MI_01
