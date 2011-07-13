@@ -106,6 +106,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
 ;
+; Motorola Zeppelin
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_2D66
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_2D66&MI_01
+;
 ; Samsung Aries, Crespo4G
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E22
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
@@ -203,6 +207,10 @@ HKR,,Icon,,-1
 ; Motorola Sholes
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
+;
+; Motorola Zeppelin
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_2D66
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_2D66&MI_01
 ;
 ; Samsung Aries, Crespo4G
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E22
