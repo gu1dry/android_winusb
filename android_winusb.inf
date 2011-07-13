@@ -90,6 +90,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CAC
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CAC&MI_01
 ;
+; HTC Vivo_W
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CAD
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CAD&MI_01
+;
 ; LG Star
 %SingleAdbInterface%        = USB_Install, USB\VID_1004&PID_618E
 %CompositeAdbInterface%     = USB_Install, USB\VID_1004&PID_618E&MI_01
@@ -191,6 +195,10 @@ HKR,,Icon,,-1
 ; HTC Vivo
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CAC
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CAC&MI_01
+;
+; HTC Vivo_W
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CAD
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0CAD&MI_01
 ;
 ; LG Star
 %SingleAdbInterface%        = USB_Install, USB\VID_1004&PID_618E
