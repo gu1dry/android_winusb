@@ -46,6 +46,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C87
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C87&MI_01
 ;
+; HTC Buzz
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C8B
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C8B&MI_01
+;
 ; HTC Click
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C02
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
@@ -161,6 +165,10 @@ HKR,,Icon,,-1
 ; HTC Bravo
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C87
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C87&MI_01
+;
+; HTC Buzz
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C8B
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C8B&MI_01
 ;
 ; HTC Click
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C02
