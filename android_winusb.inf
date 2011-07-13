@@ -130,6 +130,8 @@ HKR,,Icon,,-1
 ; ZTE Venus
 %SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_19D2
 %CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_19D2&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_1351
+%CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_1351&MI_01
 
 [Google.NTamd64]
 ; B&N Encore
@@ -236,6 +238,8 @@ HKR,,Icon,,-1
 ; ZTE Venus
 %SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_19D2
 %CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_19D2&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_1351
+%CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_1351&MI_01
 
 [USB_Install]
 Include = winusb.inf
