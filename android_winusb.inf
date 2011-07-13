@@ -106,17 +106,21 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_7100
 %CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_7100&MI_01
 ;
+; Motorola Droid2WE
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_42DA
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_42DA&MI_01
+;
 ; Motorola Jordan
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
 ;
+; Motorola Morrison, Zeppelin
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_2D66
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_2D66&MI_01
+;
 ; Motorola Sholes
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
-;
-; Motorola Zeppelin
-%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_2D66
-%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_2D66&MI_01
 ;
 ; Samsung Aries, Crespo4G
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E22
@@ -218,17 +222,21 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_7100
 %CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_7100&MI_01
 ;
+; Motorola Droid2WE
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_42DA
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_42DA&MI_01
+;
 ; Motorola Jordan
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
 ;
+; Motorola Morrison, Zeppelin
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_2D66
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_2D66&MI_01
+;
 ; Motorola Sholes
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
-;
-; Motorola Zeppelin
-%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_2D66
-%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_2D66&MI_01
 ;
 ; Samsung Aries, Crespo4G
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E22
