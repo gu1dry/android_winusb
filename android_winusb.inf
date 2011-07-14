@@ -114,6 +114,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_7100
 %CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_7100&MI_01
 ;
+; Motorola Droid2
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_42A4
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_42A4&MI_01
+;
 ; Motorola Droid2WE
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_42DA
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_42DA&MI_01
@@ -237,6 +241,10 @@ HKR,,Icon,,-1
 ; Malata SMB_a1002, SMB_a1004, SMB_a1011, SMB_b9701
 %SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_7100
 %CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_7100&MI_01
+;
+; Motorola Droid2
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_42A4
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_42A4&MI_01
 ;
 ; Motorola Droid2WE
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_42DA
