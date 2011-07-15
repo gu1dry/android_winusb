@@ -59,9 +59,13 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
 ;
-; HTC Espresso, Glacier, Hero, HeroC
+; HTC Espresso, Hero, HeroC
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0FF9
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0FF9&MI_01
+;
+; HTC Glacier
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C96
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C96&MI_01
 ;
 ; HTC Incredible
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C8D
@@ -187,9 +191,13 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
 ;
-; HTC Espresso, Glacier, Hero, HeroC
+; HTC Espresso, Hero, HeroC
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0FF9
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0FF9&MI_01
+;
+; HTC Glacier
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C96
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C96&MI_01
 ;
 ; HTC Incredible
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C8D
