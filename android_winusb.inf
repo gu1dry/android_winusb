@@ -26,6 +26,10 @@ HKR,,Icon,,-1
 %ProviderName% = Google, NTx86, NTamd64
 
 [Google.NTx86]
+; Advent Vega
+%SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_7100
+%CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_7100&MI_01
+;
 ; B&N Encore
 %SingleAdbInterface%        = USB_Install, USB\VID_2080&PID_0002
 %CompositeAdbInterface%     = USB_Install, USB\VID_2080&PID_0002&MI_01
@@ -162,6 +166,10 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_1351&MI_01
 
 [Google.NTamd64]
+; Advent Vega
+%SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_7100
+%CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_7100&MI_01
+;
 ; B&N Encore
 %SingleAdbInterface%        = USB_Install, USB\VID_2080&PID_0002
 %CompositeAdbInterface%     = USB_Install, USB\VID_2080&PID_0002&MI_01
