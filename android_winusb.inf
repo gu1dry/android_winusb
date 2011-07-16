@@ -75,6 +75,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C8D
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C8D&MI_01
 ;
+; HTC Legend
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C97
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C97&MI_01
+;
 ; HTC Liberty
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C92
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C92&MI_01
@@ -214,6 +218,10 @@ HKR,,Icon,,-1
 ; HTC Incredible
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C8D
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C8D&MI_01
+;
+; HTC Legend
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C97
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C97&MI_01
 ;
 ; HTC Liberty
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0C92
