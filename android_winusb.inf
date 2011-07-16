@@ -164,8 +164,8 @@ HKR,,Icon,,-1
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_0DDE
 ;
 ; ZTE Venus
-%SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_19D2
-%CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_19D2&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_1354
+%CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_1354&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_1351
 %CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_1351&MI_01
 
@@ -308,8 +308,8 @@ HKR,,Icon,,-1
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_0DDE
 ;
 ; ZTE Venus
-%SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_19D2
-%CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_19D2&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_1354
+%CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_1354&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_19D2&PID_1351
 %CompositeAdbInterface%     = USB_Install, USB\VID_19D2&PID_1351&MI_01
 
