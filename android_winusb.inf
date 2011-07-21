@@ -63,7 +63,11 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
 ;
-; HTC Espresso, Hero, HeroC
+; HTC Espresso
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0E03
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0E03&MI_01
+;
+; HTC Hero, HeroC
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0FF9
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0FF9&MI_01
 ;
@@ -211,7 +215,11 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0C02&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0BB4&PID_0FFF
 ;
-; HTC Espresso, Hero, HeroC
+; HTC Espresso
+%SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0E03
+%CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0E03&MI_01
+;
+; HTC Hero, HeroC
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0FF9
 %CompositeAdbInterface%     = USB_Install, USB\VID_0BB4&PID_0FF9&MI_01
 ;
