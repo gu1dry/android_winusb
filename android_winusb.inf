@@ -41,6 +41,7 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_0B05&PID_4E1F&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_0B05&PID_4E3F
 %CompositeAdbInterface%     = USB_Install, USB\VID_0B05&PID_4E3F&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_0B05&PID_4D03
 ;
 ; Asus TF201
 %SingleAdbInterface%        = USB_Install, USB\VID_0B05&PID_4D01
