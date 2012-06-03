@@ -169,6 +169,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
 ;
+; Motorola Maserati
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_4331
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_4331&MI_01
+;
 ; Motorola Morrison, Zeppelin
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_2D66
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_2D66&MI_01
@@ -354,6 +358,10 @@ HKR,,Icon,,-1
 ; Motorola Jordan
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
+;
+; Motorola Maserati
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_4331
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_4331&MI_01
 ;
 ; Motorola Morrison, Zeppelin
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_2D66
