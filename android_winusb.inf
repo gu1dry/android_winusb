@@ -189,10 +189,6 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E22
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
 ;
-; Samsung C1
-%SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_685E
-%CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_685E&MI_01
-;
 ; Samsung Maguro, Toro
 %SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_D001
 %CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_D001&MI_01
@@ -204,6 +200,15 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_6860&REV_0216&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_4E30
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_4E30&MI_01
+;
+; Samsung Q1
+%SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
+%CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_6860&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_04E8&PID_685D&MI_01
+;
+; Samsung U1
+%SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_685E
+%CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_685E&MI_01
 ;
 ; Sony Ericsson Anzu, Zeus
 %SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_0DDE
@@ -379,10 +384,6 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E22
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
 ;
-; Samsung C1
-%SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_685E
-%CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_685E&MI_01
-;
 ; Samsung Maguro, Toro
 %SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_D001
 %CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_D001&MI_01
@@ -394,6 +395,15 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_6860&REV_0216&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_4E30
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_4E30&MI_01
+;
+; Samsung Q1
+%SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
+%CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_6860&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_04E8&PID_685D&MI_01
+;
+; Samsung U1
+%SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_685E
+%CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_685E&MI_01
 ;
 ; Sony Ericsson Anzu, Zeus
 %SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_0DDE
