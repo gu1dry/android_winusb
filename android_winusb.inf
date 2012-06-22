@@ -185,6 +185,18 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
 ;
+; Motorola Stingray, Wingray
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_70A9
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_70A9&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_708C
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_708C&MI_01
+;
+; Pandaboard
+%SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D101
+%CompositeAdbInterface%     = USB_Install, USB\VID_0451&PID_D101&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_0451&PID_D022
+%SingleBootLoaderInterface% = USB_Install, USB\VID_0451&PID_D022&MI_01
+;
 ; Samsung Aries, Crespo4G
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E22
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
@@ -198,8 +210,12 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_6860&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_6860&REV_0216
 %CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_6860&REV_0216&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
+%CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_6860&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_4E30
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_4E30&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E30
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E30&MI_01
 ;
 ; Samsung Q1
 %SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
@@ -380,6 +396,18 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_41DB
 %CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_41DB&MI_01
 ;
+; Motorola Stingray, Wingray
+%SingleAdbInterface%        = USB_Install, USB\VID_22B8&PID_70A9
+%CompositeAdbInterface%     = USB_Install, USB\VID_22B8&PID_70A9&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_708C
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_708C&MI_01
+;
+; Pandaboard
+%SingleAdbInterface%        = USB_Install, USB\VID_0451&PID_D101
+%CompositeAdbInterface%     = USB_Install, USB\VID_0451&PID_D101&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_0451&PID_D022
+%SingleBootLoaderInterface% = USB_Install, USB\VID_0451&PID_D022&MI_01
+;
 ; Samsung Aries, Crespo4G
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E22
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
@@ -393,8 +421,12 @@ HKR,,Icon,,-1
 %CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_6860&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_6860&REV_0216
 %CompositeAdbInterface%     = USB_Install, USB\VID_0FCE&PID_6860&REV_0216&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
+%CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_6860&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_4E30
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_4E30&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E30
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E30&MI_01
 ;
 ; Samsung Q1
 %SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
