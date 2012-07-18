@@ -30,6 +30,15 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_7100
 %CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_7100&MI_01
 ;
+; Asus Grouper
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E41
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E41&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E42
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E44
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E44&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E40
+;
 ; Asus SL101
 %SingleAdbInterface%        = USB_Install, USB\VID_0B05&PID_4E01
 %CompositeAdbInterface%     = USB_Install, USB\VID_0B05&PID_4E01&MI_01
@@ -60,6 +69,10 @@ HKR,,Icon,,-1
 ; Geeksphone Zero
 %SingleAdbInterface%        = USB_Install, USB\VID_05C6&PID_9025
 %CompositeAdbInterface%     = USB_Install, USB\VID_05C6&PID_9025&MI_01
+;
+; Google Phantasm
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E42
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42$MI_01
 ;
 ; HTC Ace
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA2
@@ -244,6 +257,15 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0955&PID_7100
 %CompositeAdbInterface%     = USB_Install, USB\VID_0955&PID_7100&MI_01
 ;
+; Asus Grouper
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E41
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E41&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E42
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E44
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E44&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E40
+;
 ; Asus SL101
 %SingleAdbInterface%        = USB_Install, USB\VID_0B05&PID_4E01
 %CompositeAdbInterface%     = USB_Install, USB\VID_0B05&PID_4E01&MI_01
@@ -273,6 +295,10 @@ HKR,,Icon,,-1
 ; Geeksphone Zero
 %SingleAdbInterface%        = USB_Install, USB\VID_05C6&PID_9025
 %CompositeAdbInterface%     = USB_Install, USB\VID_05C6&PID_9025&MI_01
+;
+; Google Phantasm
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E42
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42$MI_01
 ;
 ; HTC Ace
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA2
