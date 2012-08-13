@@ -6,7 +6,7 @@ Signature           = "$Windows NT$"
 Class               = AndroidUsbDeviceClass
 ClassGuid           = {3F966BD9-FA04-4ec5-991C-D326973B5128}
 Provider            = %ProviderName%
-DriverVer           = 12/06/2010,4.0.0000.00000
+DriverVer           = 05/24/2012,6.0.0000.00000
 CatalogFile.NTx86   = androidwinusb86.cat
 CatalogFile.NTamd64 = androidwinusba64.cat
 
