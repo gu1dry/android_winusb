@@ -6,15 +6,10 @@ Signature           = "$Windows NT$"
 Class               = AndroidUsbDeviceClass
 ClassGuid           = {3F966BD9-FA04-4ec5-991C-D326973B5128}
 Provider            = %ProviderName%
-DriverVer           = 05/24/2012,6.0.0000.00000
+DriverVer           = 08/27/2012,7.0.0000.00001
 CatalogFile.NTx86   = androidwinusb86.cat
 CatalogFile.NTamd64 = androidwinusba64.cat
 
-;
-; This section seems to be required for WinUsb driver installation.
-; If this section is removed the installer will report an error
-; "Required section not found in INF file".
-;
 [ClassInstall32]
 Addreg = AndroidWinUsbClassReg
 
@@ -32,10 +27,8 @@ HKR,,Icon,,-1
 ;
 ; Asus Grouper
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E41
-%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E41&MI_01
-%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E42
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42&MI_01
-%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E44
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E44&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E40
 ;
@@ -70,9 +63,22 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_05C6&PID_9025
 %CompositeAdbInterface%     = USB_Install, USB\VID_05C6&PID_9025&MI_01
 ;
+; Google Generic
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4EE0
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4EE1
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE2
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE2&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4EE3
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE4&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4EE5
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE6&MI_01
+;
 ; Google Phantasm
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_2C11
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_2C11&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E42
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_2C10
 ;
 ; HTC Ace
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA2
@@ -215,6 +221,12 @@ HKR,,Icon,,-1
 ; Samsung Aries, Crespo4G
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E22
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+;
+; Samsung Crespo
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E21
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E23
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E24&MI_01
 ;
 ; Samsung Maguro, Toro
 %SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_D001
@@ -259,10 +271,8 @@ HKR,,Icon,,-1
 ;
 ; Asus Grouper
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E41
-%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E41&MI_01
-%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E42
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42&MI_01
-%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E44
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E44&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E40
 ;
@@ -292,13 +302,26 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_0489&PID_C001
 %CompositeAdbInterface%     = USB_Install, USB\VID_0489&PID_C001&MI_01
 ;
+; Google Generic
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4EE0
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4EE1
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE2
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE2&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4EE3
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE4&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4EE5
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4EE6&MI_01
+;
 ; Geeksphone Zero
 %SingleAdbInterface%        = USB_Install, USB\VID_05C6&PID_9025
 %CompositeAdbInterface%     = USB_Install, USB\VID_05C6&PID_9025&MI_01
 ;
 ; Google Phantasm
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_2C11
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_2C11&MI_01
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E42
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E42&MI_01
+%SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_2C10
 ;
 ; HTC Ace
 %SingleAdbInterface%        = USB_Install, USB\VID_0BB4&PID_0CA2
@@ -441,6 +464,12 @@ HKR,,Icon,,-1
 ; Samsung Aries, Crespo4G
 %SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E22
 %CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+;
+; Samsung Crespo
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E21
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E22&MI_01
+%SingleAdbInterface%        = USB_Install, USB\VID_18D1&PID_4E23
+%CompositeAdbInterface%     = USB_Install, USB\VID_18D1&PID_4E24&MI_01
 ;
 ; Samsung Maguro, Toro
 %SingleAdbInterface%        = USB_Install, USB\VID_0FCE&PID_D001
@@ -538,4 +567,4 @@ CompositeAdbInterface       = "Android Composite ADB Interface"
 SingleBootLoaderInterface   = "Android Bootloader Interface"
 WinUSB_SvcDesc              = "Android USB Driver"
 DISK_NAME                   = "Android WinUsb installation disk"
-ClassName                   = "Android Phone"
+ClassName                   = "Android Device"
