@@ -176,6 +176,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_12D1&PID_1501
 %CompositeAdbInterface%     = USB_Install, USB\VID_12D1&PID_1501&MI_01
 ;
+; Kindle Fire
+%SingleAdbInterface%        = USB_Install, USB\VID_1949&PID_0006
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0006&MI_01
+;
 ; LG Star
 %SingleAdbInterface%        = USB_Install, USB\VID_1004&PID_618E
 %CompositeAdbInterface%     = USB_Install, USB\VID_1004&PID_618E&MI_01
@@ -249,6 +253,10 @@ HKR,,Icon,,-1
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_4E30&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E30
 %SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E30&MI_01
+;
+; Samsung Galaxy S2
+%SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
+%CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_6860&MI_03
 ;
 ; Samsung Q1
 %SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
@@ -425,6 +433,10 @@ HKR,,Icon,,-1
 %SingleAdbInterface%        = USB_Install, USB\VID_12D1&PID_1501
 %CompositeAdbInterface%     = USB_Install, USB\VID_12D1&PID_1501&MI_01
 ;
+; Kindle Fire
+%SingleAdbInterface%        = USB_Install, USB\VID_1949&PID_0006
+%CompositeAdbInterface%     = USB_Install, USB\VID_1949&PID_0006&MI_01
+;
 ; LG Star
 %SingleAdbInterface%        = USB_Install, USB\VID_1004&PID_618E
 %CompositeAdbInterface%     = USB_Install, USB\VID_1004&PID_618E&MI_01
@@ -498,6 +510,10 @@ HKR,,Icon,,-1
 %SingleBootLoaderInterface% = USB_Install, USB\VID_0FCE&PID_4E30&MI_01
 %SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E30
 %SingleBootLoaderInterface% = USB_Install, USB\VID_18D1&PID_4E30&MI_01
+;
+; Samsung Galaxy S2
+%SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
+%CompositeAdbInterface%     = USB_Install, USB\VID_04E8&PID_6860&MI_03
 ;
 ; Samsung Q1
 %SingleAdbInterface%        = USB_Install, USB\VID_04E8&PID_6860
